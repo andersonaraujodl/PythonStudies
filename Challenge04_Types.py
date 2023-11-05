@@ -1,0 +1,10 @@
+n = input("Type something ")
+
+print("Type of \"{}\": {}".format(n, type(n)))
+print("\"{}\" has ONLY spaces? {}".format(n, n.isspace()))
+print("\"{}\" is a number? {}".format(n, n.isnumeric()))
+print("\"{}\" is alphabetical? {}".format(n, n.isalpha()))
+print("\"{}\" is alphanumeric? {}".format(n, n.isalnum()))
+print("\"{}\" is capital case? {}".format(n, n.isupper()))
+print("\"{}\" is lower case? {}".format(n, n.islower()))
+print("\"{}\" is title case? {}".format(n, n.istitle()))
