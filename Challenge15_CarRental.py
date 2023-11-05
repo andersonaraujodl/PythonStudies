@@ -5,4 +5,4 @@ pricePerKm = 0.15
 pricePerDay = 60
 finalPrice = (pricePerKm * km) + (pricePerDay * days)
 
-print("The total price of a rental for {} days and {} km is: ${}".format(days, km, format(finalPrice, ".2f")))
+print("The total price of a rental for {} days and {} km is: ${:.2f}".format(days, km, finalPrice))
