@@ -6,4 +6,7 @@ fullName = str(input("Type your full name: ")).strip()
 
 splitName = fullName.split(' ')
 print("Your first name is: {}".format(splitName[0]))
-print("Your last name is: {}".format(splitName[len(splitName) - 1]))
+
+stringLen = len(splitName)
+if stringLen > 1:
+    print("Your last name is: {}".format(splitName[stringLen - 1]))

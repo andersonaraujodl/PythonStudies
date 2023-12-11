@@ -8,7 +8,7 @@ SALARY_THRESHOLD = 70000
 HIGH_INCREASE = 0.0375
 LOW_INCREASE = 0.05
 
-currentSalary = float(input("What's the currenty salary: "))
+currentSalary = float(input("What's the current salary: "))
 
 if currentSalary > SALARY_THRESHOLD:
     salaryRaise = currentSalary * HIGH_INCREASE

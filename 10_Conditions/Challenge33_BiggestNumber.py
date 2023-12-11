@@ -13,12 +13,13 @@ if b < smallest:
 if c < smallest:
     smallest = c
 
-biggest = c
-if a > biggest:
-    biggest = a
+greatest = c
+if a > greatest:
+    greatest = a
 
-if b > biggest:
-    biggest = b
+if b > greatest:
+    greatest = b
+
 
 print("The smallest number is: {}".format(smallest))
-print("The biggest number is: {}".format(biggest))
+print("The biggest number is: {}".format(greatest))

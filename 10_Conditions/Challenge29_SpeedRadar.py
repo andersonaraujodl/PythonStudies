@@ -8,7 +8,7 @@ it costs $9.00
 
 SPEED_LIMIT = 80
 COST_PER_KM = 9.00
-speed = int(input("Type the speed of the car in km/h: "))
+speed = float(input("Type the speed of the car in km/h: "))
 
 if speed > SPEED_LIMIT:
     fine = ( speed - SPEED_LIMIT ) * COST_PER_KM
